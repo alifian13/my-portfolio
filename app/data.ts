@@ -9,15 +9,15 @@ export const portfolioData = {
   projects: [
     {
       title: "Motocare",
-      description: "Aplikasi mobile dan web untuk manajemen servis kendaraan bermotor otomatis berbasis jarak tempuh (mileage).",
+      description: "Motocare merupakan applikasi perawatan motor matic yang membantu pengguna dalam merawat motor matic mereka. Pengguna tak perlu menambahkan modul apapun terhadap motor mereka, hanya dengan menginstal aplikasi serta memasukan beberapa informasi terkait kondisi motor mereka saat itu maka aplikasi ini akan mulai melakukan tugasnya.",
       tech: ["Flutter", "Express.js"],
       image: "/images/motocare.jpg",
     },
     {
       title: "Ceban",
-      description: "Pengembangan aplikasi mobile dengan antarmuka pengguna yang modern dan arsitektur kode yang bersih.",
+      description: "Ceban merupakan aplikasi kedua yang saya bangun untuk menunjang pemasukan dan pengeluaran saya, pada awal pembuatan saya hanya fokus untuk memanajemen keuangan saya saja. Pada saat ini ceban saya kembangkan lagi menjadi aplikasi yang juga dapat membuat catatan perjalanan yang kompleks. Penambahan fitur ini di latar belakangi dengan hobi saya yakni mendaki gunung, saya dapat  melakukan pendataan alat gunung, catatan perjalanan, pengeluaran saat mendaki hingga jurnal perjalanan di aplikasi ini.",
       tech: ["Flutter", "UI/UX"],
-      image: "/images/ceban.jpg", // Ganti jika ada gambar khusus ceban.jpg
+      image: "/images/ceban.jpg",
     }
   ],
   educations: [
@@ -26,21 +26,20 @@ export const portfolioData = {
       school: "Universitas Teknologi Yogyakarta (UTY)",
       date: "Lulus 2026",
       description: "Memasuki semester akhir perkuliahan, aktif menulis jurnal akademik, dan mempersiapkan diri untuk karir profesional di bidang teknologi.",
-      image: "/images/lulus.jpg" // Siapkan fotomu saat di kampus/jas almamater
+      image: "/images/lulus.jpg"
     }
   ],
 
   experiences: [
     {
-      role: "Grocery", // Silakan sesuaikan jika ada pengalaman lain
+      role: "Grocery", 
       company: "PT Lion Super Indo",
       date: "2024 - 2026",
       description: "Bertanggung jawab dalam pengelolaan inventaris, pelayanan pelanggan, dan operasional toko untuk memastikan pengalaman belanja yang optimal bagi pelanggan.",
-      image: "/images/superindo.jpg" // Siapkan foto saat kamu coding/bekerja
+      image: "/images/superindo.jpg" 
     }
   ],
   
-  // DATA GUNUNG: Sudah diubah menjadi format object agar mendukung gambar
   mountains: [
     { name: "Gunung Merbabu via Thekelan", image: "/images/merbabu.jpg" },
     { name: "Gunung Merbabu via Swanting", image: "/images/merbabuswanting.jpg" },
@@ -55,6 +54,7 @@ export const portfolioData = {
     { name: "Gunung Telomoyo", image: "/images/telomoyo.jpg" },
     { name: "Gunung Ungaran", image: "/images/ungaran.jpg" },
     { name: "Gunung Muria", image: "/images/muria.jpg" },
+    { name: "Gunung Mongkrang", image: "/images/mongkrang.jpg" },
     { name: "Gunung Jokolangan", image: "/images/jokolangan.jpg" }
   ],
   
@@ -69,7 +69,24 @@ export const portfolioData = {
     }
   ],
 
-  // DATA Sertifikat
+  achievements: [
+    {
+      title: "Jurnal INFOS (Information System Journal)",
+      icon: "📝",
+      link: "https://doi.org/10.24076/infosjournal.2025v8i02.2365"
+    },
+    {
+      title: "Best Capstone System",
+      icon: "🏆",
+      link: "#"
+    },
+    {
+      title: "Mahasiswa Berprestasi UTY",
+      icon: "🎓",
+      link: "#"
+    }
+  ],
+
   certificates: [
     {
       name: "Belajar Dasar Structure Query Language (SQL)", 
@@ -84,6 +101,28 @@ export const portfolioData = {
       year: "2023",
       credentialId: "07Z68EE5YXQR",
       link: "https://www.dicoding.com/certificates/07Z68EE5YXQR"
-    }
+    },
+    {
+      name: "Microsoft", 
+      issuer: "Jobstreet",
+      year: "2026",
+      credentialId: "Microsoft Skill For Job",
+      link: "https://drive.google.com/file/d/1oYu3K3QvIxcxV3KxT_YIDjxS0TX1J0Yj/view?usp=sharing"
+    },
+    {
+      name: "TOEFL", 
+      issuer: "Universitas Teknologi Yogyakarta",
+      year: "2025",
+      credentialId: "9000250011000",
+      link: "https://drive.google.com/file/d/1bS3SkUiz4AQvDapN2YdTpSNmG-ROAFGq/view?usp=drive_link"
+    },
+  ],
+
+  recognitionPhotos: [
+    "/images/recog-1.png", 
+    "/images/recog-2.png",
+    "/images/recog-3.jpg",
+    "/images/recog-4.jpg",
+    "/images/recog-5.png"
   ]
 };
