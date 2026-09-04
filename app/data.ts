@@ -2,7 +2,7 @@ export const portfolioData = {
   name: "Rizky Alifian Ilham",
   role: "Software Developer | Mobile App Developer | Web Developer | UI/UX Enthusiast",
   about: "Computer science graduate from Yogyakarta University of Technology with a strong interest in Technology, Customer Relations, and Operations Management. I have honed my communication skills through various campus activities and part-time work in customer relations. With the ability to design effective communication strategies to build strong relationships with customers and teams, I am ready to contribute to building positive relationships between companies and their audiences.",
-  profileImage: "/images/profile.jpg",
+  profileImage: "/images/profil.jpg",
   skills: [
     "Flutter", "Express.js", "Clean Architecture", "PHP", "Laravel", "Next.js", "Tailwind CSS", "Git & GitHub", "MySql", "SQLite"
   ],
@@ -11,13 +11,17 @@ export const portfolioData = {
       title: "Motocare",
       description: "Motocare merupakan applikasi perawatan motor matic yang membantu pengguna dalam merawat motor matic mereka. Pengguna tak perlu menambahkan modul apapun terhadap motor mereka, hanya dengan menginstal aplikasi serta memasukan beberapa informasi terkait kondisi motor mereka saat itu maka aplikasi ini akan mulai melakukan tugasnya.",
       tech: ["Flutter", "Express.js"],
-      image: "/images/motocare.jpg",
+      image: "/images/Motocare.jpg",
+      logo: "/images/logo-motocare.png",
+      link: "https://github.com/alifian13/motocare",
     },
     {
       title: "Ceban",
       description: "Ceban merupakan aplikasi kedua yang saya bangun untuk menunjang pemasukan dan pengeluaran saya, pada awal pembuatan saya hanya fokus untuk memanajemen keuangan saya saja. Pada saat ini ceban saya kembangkan lagi menjadi aplikasi yang juga dapat membuat catatan perjalanan yang kompleks. Penambahan fitur ini di latar belakangi dengan hobi saya yakni mendaki gunung, saya dapat  melakukan pendataan alat gunung, catatan perjalanan, pengeluaran saat mendaki hingga jurnal perjalanan di aplikasi ini.",
       tech: ["Flutter", "UI/UX"],
-      image: "/images/ceban.jpg",
+      image: "/images/Ceban.jpg",
+      logo: "/images/logo-ceban.png",
+      link: "https://github.com/alifian13/ceban",
     }
   ],
   educations: [
@@ -93,36 +97,64 @@ export const portfolioData = {
       issuer: "Dicoding",
       year: "2023",
       credentialId: "MRZMLJ8RNXYQ",
-      link: "https://www.dicoding.com/certificates/MRZMLJ8RNXYQ"
+      link: "/Dicoding_SQL.png"
     },
     {
       name: "Belajar Dasar Pemrograman JavaScript",
       issuer: "Dicoding",
       year: "2023",
       credentialId: "07Z68EE5YXQR",
-      link: "https://www.dicoding.com/certificates/07Z68EE5YXQR"
+      link: "/Dicoding_Javasript.png"
     },
     {
       name: "Microsoft", 
       issuer: "Jobstreet",
       year: "2026",
       credentialId: "Microsoft Skill For Job",
-      link: "https://drive.google.com/file/d/1oYu3K3QvIxcxV3KxT_YIDjxS0TX1J0Yj/view?usp=sharing"
+      link: "/Microsoft.png"
     },
     {
       name: "TOEFL", 
       issuer: "Universitas Teknologi Yogyakarta",
       year: "2025",
       credentialId: "9000250011000",
-      link: "https://drive.google.com/file/d/1bS3SkUiz4AQvDapN2YdTpSNmG-ROAFGq/view?usp=drive_link"
+      link: "/Toefl.png"
+    },
+    {
+      name: "Create a Data Visualization with Python", 
+      issuer: "IBM SkillsBuild",
+      year: "2026",
+      credentialId: "(ALM-COURSE_4058961)",
+      link: "/IBM_SkillBuild.png"
+    },
+    {
+      name: "Data Analytics Job Simulation",
+      issuer: "Deloitte",
+      year: "2026",
+      credentialId: "Deloitte on Forage",
+      link: "/Deloitte.png"
+    },
+    {
+      name: "Front-End Software Engineering virtual experience programme",
+      issuer: "Skyscanner",
+      year: "2026",
+      credentialId: "https://www.theforage.com/simulations/skyscanner/front-end-software-engineering-cbwl/completed",
+      link: "/Skyscanner.png"
+    },
+    {
+      name: "Mobility Operations Industrial Engineer",
+      issuer: "Siemens",
+      year: "2026",
+      credentialId: "https://www.theforage.com/simulations/siemens-mobility/operations-industrial-engineering-xh22/completed",
+      link: "/Siemens.png"
     },
   ],
 
   recognitionPhotos: [
     "/images/recog-1.png", 
     "/images/recog-2.png",
-    "/images/recog-3.jpg",
+    "/images/Recog-3.png",
     "/images/recog-4.jpg",
-    "/images/recog-5.png"
+    "/images/recog-5.png",
   ]
 };
