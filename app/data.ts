@@ -2,7 +2,7 @@ export const portfolioData = {
   name: "Rizky Alifian Ilham",
   role: "Software Developer | Mobile App Developer | Web Developer | UI/UX Enthusiast",
   about: "Computer science graduate from Yogyakarta University of Technology with a strong interest in Technology, Customer Relations, and Operations Management. I have honed my communication skills through various campus activities and part-time work in customer relations. With the ability to design effective communication strategies to build strong relationships with customers and teams, I am ready to contribute to building positive relationships between companies and their audiences.",
-  profileImage: "/images/profil.jpg",
+  profileImage: "/images/profile.png",
   skills: [
     "Flutter", "Express.js", "Clean Architecture", "PHP", "Laravel", "Next.js", "Tailwind CSS", "Git & GitHub", "MySql", "SQLite"
   ],
