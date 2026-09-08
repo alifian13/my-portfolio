@@ -19,7 +19,7 @@ export const portfolioData = {
       title: "Ceban",
       description: "Ceban merupakan aplikasi kedua yang saya bangun untuk menunjang pemasukan dan pengeluaran saya, pada awal pembuatan saya hanya fokus untuk memanajemen keuangan saya saja. Pada saat ini ceban saya kembangkan lagi menjadi aplikasi yang juga dapat membuat catatan perjalanan yang kompleks. Penambahan fitur ini di latar belakangi dengan hobi saya yakni mendaki gunung, saya dapat  melakukan pendataan alat gunung, catatan perjalanan, pengeluaran saat mendaki hingga jurnal perjalanan di aplikasi ini.",
       tech: ["Flutter", "UI/UX"],
-      image: "/images/Ceban.jpg",
+      image: "/images/Ceban.png",
       logo: "/images/logo-ceban.png",
       link: "https://github.com/alifian13/ceban",
     }
