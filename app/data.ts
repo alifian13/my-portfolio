@@ -11,7 +11,7 @@ export const portfolioData = {
       title: "Motocare",
       description: "Motocare merupakan applikasi perawatan motor matic yang membantu pengguna dalam merawat motor matic mereka. Pengguna tak perlu menambahkan modul apapun terhadap motor mereka, hanya dengan menginstal aplikasi serta memasukan beberapa informasi terkait kondisi motor mereka saat itu maka aplikasi ini akan mulai melakukan tugasnya.",
       tech: ["Flutter", "Express.js"],
-      image: "/images/Motocare.jpg",
+      image: "/images/Motocare.png",
       logo: "/images/logo-motocare.png",
       link: "https://github.com/alifian13/motocare",
     },
