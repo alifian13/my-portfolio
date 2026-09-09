@@ -93,6 +93,27 @@ export const portfolioData = {
 
   certificates: [
     {
+      name: "Javascripts Essentails 2", 
+      issuer: "Cisco Networking Academy",
+      year: "2026",
+      credentialId: "https://www.credly.com/badges/4d510218-c843-424b-8ce9-26c8b4b57fc4",
+      link: "/Cisco.png"
+    },
+    {
+      name: "Java Best Practices for Efficient, Scalable, and Secure Code", 
+      issuer: "UDemy",
+      year: "2026",
+      credentialId: "UC-28c40e93-b7c1-4937-898d-42387a39961f",
+      link: "/Udemy.png"
+    },
+    {
+      name: "Machine Learning Professional", 
+      issuer: "Altair RapidMiner",
+      year: "2026",
+      credentialId: "https://openbadgefactory.com/validator?id=abb2d7de208b0206f524e1b4782ea3475833b85a",
+      link: "/RapidMiner.png"
+    },
+    {
       name: "Belajar Dasar Structure Query Language (SQL)", 
       issuer: "Dicoding",
       year: "2023",
